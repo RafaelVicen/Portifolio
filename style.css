@@ -158,7 +158,7 @@ nav .navlink li a:hover{
 .btn-group{
   margin: 45px 0;
 }
-
+/*  
 .btn-group .btn{
   border-color: #e5e5e5e5;
   color: #fff;
@@ -170,11 +170,13 @@ nav .navlink li a:hover{
   border: 2px solid #10a5fc;
   box-shadow: 0 10px 10px -8px rgba(211, 9, 9, 0.78);
 }
-
+*/
 .btn-group .btn-active{
   border-color: #e5e5e5e5;
   color: #fff;
+  align-items: center;
   background-color: #000000;
+  align-items: center;
   padding: 12px 25px;
   margin: 5px 0px;
   margin-right: 7px;
@@ -216,7 +218,7 @@ nav .navlink li a:hover{
   
 }
 
-@media (max-width:930px) {
+@media (max-width:768px) {
   nav .togglebtn{
     display: initial;
   }
@@ -260,6 +262,53 @@ nav .navlink li a:hover{
   }
   nav .navlink.open{
     right: -100;
+  }
+}
+
+@media (max-width:668px) {
+  nav .togglebtn{
+    display: initial;
+  }
+  .click{
+    top: 45px;
+  }
+  .click span{
+    position: absolute;
+    margin-top: 12px;
+  }
+  .click span:first-child{
+    transform: rotate(-40deg);
+  }
+  .click span:nth-child(2){
+    opacity: 0;
+    margin: 0;
+  }
+  .click span:last-child{
+    transform: rotate(45deg);
+    top: 0;
+  }
+  nav .navlink{
+    position:fixed;
+    top: 110px;
+    right: -100%;
+    bottom: 0;
+    width: 60%;
+    height: 100vh;
+    background-color: #0c0a0afd;  
+    z-index: 3;
+    box-shadow: 5px 13px 30px rgba(0, 0, 0,0,1);
+    padding: 24px 0px;
+  }
+  nav .navlink li{
+    display: block;
+  }
+  nav .navlink li a{
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  nav .navlink.open{
+    right:0;
   }
 }
 

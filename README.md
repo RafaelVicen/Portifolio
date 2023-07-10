@@ -20,7 +20,7 @@ Foram 5 dias de imersão para criar um novo projeto em HTML e CSS com aulas supe
 
 <br>
 
-Trata-se de um mural destinado a exibir e preservar os momentos desde o início da jornada de estudos de programação, permitindo-nos contemplar todas as etapas pelas quais passamos para chegar até aqui. Além de ser uma lembrança para o futuro, sendo assim uma espécie de cápsula do tempo, guardando memórias valiosas. 
+Trata-se de um mural destinado a exibir e preservar os momentos desde o início da minha jornada de estudos de programação, permitindo-me contemplar todas as etapas pelas quais passei para chegar até aqui. Além de ser uma lembrança para o futuro, sendo assim uma espécie de cápsula do tempo, guardando memórias valiosas. 
 
 <br>
 

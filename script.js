@@ -1,4 +1,4 @@
-const sliders = document.querySelectorAll(".slider")
+ /*const sliders = document.querySelectorAll(".slider")
 
 sliders.forEach((slider) => {
   const slides = slider.querySelector(".slides")
@@ -45,3 +45,4 @@ sliders.forEach((slider) => {
     startSlider() 
   }
 })
+*/
